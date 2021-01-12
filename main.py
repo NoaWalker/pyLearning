@@ -1,6 +1,6 @@
 # 初めてのローカルpythonです。
 # Hello Worldから始めよう。
 
-print("Hello World")
-for i in range(10):
-    print(i)
+say = "hello world"
+for i in range (10):
+    print(str(i + 1) + "回目の" + say)
